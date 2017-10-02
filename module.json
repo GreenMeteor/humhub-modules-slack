@@ -3,7 +3,7 @@
     "name": "Slack",
     "description": "Adds a Slack Chat Panel to HumHub`s sidebar.",
     "keywords": ["slack", "panel"],
-    "version": "0.0.2",
+    "version": "1.0.0",
     "humhub": {
         "minVersion": "1.0"
     }
