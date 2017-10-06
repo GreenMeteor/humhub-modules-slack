@@ -15,7 +15,7 @@ class Events extends \yii\base\Object
             'label' => Yii::t('SlackModule.base', 'Slack Settings'),
             'url' => Url::toRoute('/slack/admin/index'),
             'group' => 'settings',
-            'icon' => '<i class="fa fa-weixin"></i>',
+            'icon' => '<i class="fa fa-slack"></i>',
             'isActive' => Yii::$app->controller->module && Yii::$app->controller->module->id == 'slack' && Yii::$app->controller->id == 'admin',
             'sortOrder' => 650
         ]);
