@@ -25,8 +25,8 @@ public static function addSlackFrame($event)
         if (Yii::$app->user->isGuest) {
             return;
         }
-        $event->sender->view->registerAssetBundle(Assets::className());
-        $event->sender->addWidget(SlackFrame::className(), [], [
+        $event->sender->view->registerAssetBundle(Assets::class);
+        $event->sender->addWidget(SlackFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'slack')
         ]);
     }
